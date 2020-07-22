@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header .nav {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #f44336;
+  font-size: 1.2rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav a {
+  white-space: normal;
+  width: auto;
+  border: none;
+  outline: 0;
+  color: #fff;
+  background-color: #f44336;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.nav a:active {
+  color: #fcd9d6;
+  background-color: #aa2e25;
+}
+
+.padding-large {
+  padding: 0.8rem 1.6rem;
+}
+
+.shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
