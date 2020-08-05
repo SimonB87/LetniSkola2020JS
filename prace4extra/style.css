@@ -1,0 +1,24 @@
+.frame {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.bigImage {
+  width: 100%;
+}
+
+#mainImg {
+  width: 100%;
+}
+
+.selectionImages {
+  width: 100%;
+}
+
+.selectionImages .childImage {
+  max-width: 24%;
+}
+
+.centerText {
+  text-align: center;
+}

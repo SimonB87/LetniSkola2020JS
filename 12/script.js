@@ -1,7 +1,4 @@
-function addNumbers() {
-  const numberFirst = parseInt(document.getElementById("numberFirst").value);
-  const numberSecond = parseInt(document.getElementById("numberSecond").value);
-
-  const result = numberFirst + numberSecond;
+function showResult() {
+  const result = document.getElementById("inputText").value;
   document.getElementById("result").innerText = result;
 }
