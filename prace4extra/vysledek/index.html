@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="centerText">Letní škola 2020 - JS - test</h1>
+
+    <h2 class="centerText">Galerie</h2>
+
+    <div class="frame">
+      <div clas="bigImage">
+        <img id="mainImg" src="img/sunSet.jpg" alt="hlavní obrázek" />
+      </div>
+      <div class="selectionImages">
+        <img
+          class="childImage"
+          id="field"
+          src="img/field.jpg"
+          alt="další obrázek"
+          onclick="showImg('field');"
+        />
+        <img
+          class="childImage"
+          id="forest"
+          src="img/forest.jpg"
+          alt="další obrázek"
+          onclick="showImg('forest');"
+        />
+        <img
+          class="childImage"
+          id="scotland"
+          src="img/scotland.jpg"
+          alt="další obrázek"
+          onclick="showImg('scotland');"
+        />
+        <img
+          class="childImage"
+          id="sunSet"
+          src="img/sunSet.jpg"
+          alt="další obrázek"
+          onclick="showImg('sunSet');"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
